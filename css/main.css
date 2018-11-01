@@ -1,15 +1,21 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 @font-face {
-    font-family: Rustico-Regular;
-    src: local('Rustico-Regular'), local('Rustico-Regular'), 
-           url(Rustico-Regular.otf) format('opentype');
-  }
+    font-family: 'Rustico';
+    src: local('../fonts/Rustico Regular'), local('../fonts/Rustico-Regular'), url('../fonts/Rustico-Regular.woff2') format('woff2'), url('../fonts/Rustico-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body, html {
     height: 100%;
+}
+
+.about-me-content {
+    height: 720px;
+    max-height: 750px;
 }
 
 /* Video */
@@ -24,13 +30,13 @@ iframe {
 /* Headers */
 
 h1 {
+    color: #F43B47 !important;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 65px 0px 20px 0px !important;
-    font-family: 'Rustico-Regular', !important;
+    font-family: 'Rustico' !important;
     font-size: 50px !important;
-    text-transform: uppercase;
 }
 
 h2 {
@@ -38,14 +44,18 @@ h2 {
     position: absolute;
     top: 20%;
     left: 50%;
+    font-family: 'Rustico' !important;
     transform: translate(-50%, -50%);
     font-size: 50px !important;
     font-weight: bold !important;
 }
 
 h3 {
-    font-family: 'Hind', sans-serif !important;
-    font-size: 26px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rustico' !important;
+    font-size: 24px !important;
 }
 
 h4 {
@@ -59,13 +69,13 @@ h4 {
 }
 
 h5 {
+    color: #F43B47 !important;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     margin: 5px auto !important;
-    font-family: 'Hind', sans-serif !important;
+    font-family: 'Rustico' !important;
     font-size: 18px !important;
-    color: black !important;
 }
 
 h6 {
@@ -253,8 +263,8 @@ input {
 }
 
 .col-lg-3.col-md-4.col-sm-6.col-xs-12 {
-    margin: 50px 100px;
-    border: 5px solid #E75371;
+    margin: 10px 70px;
+    border: 2px solid black;
 }
 
 .plan-btn {
@@ -280,7 +290,7 @@ input {
     margin: 5px 5px;
     border: 2px solid black;
     height: 100%;
-    max-width: 200px;
+    max-width: 350px;
     padding: 10px;
 }
 

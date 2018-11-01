@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Rustico';
+    src: local('Rustico Regular'), local('Rustico-Regular'), url('Rustico-Regular.woff2') format('woff2'), url('Rustico-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
