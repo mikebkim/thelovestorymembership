@@ -289,9 +289,17 @@ input {
 .pricing-item {
     margin: 5px 5px;
     border: 2px solid black;
-    height: 100%;
-    max-width: 350px;
+    max-width: 400px;
     padding: 10px;
+}
+
+.overflow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    overflow: scroll;
 }
 
 /* Footer */
