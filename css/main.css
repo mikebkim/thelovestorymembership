@@ -14,8 +14,9 @@ body, html {
 }
 
 .about-me-content {
-    height: 720px;
+    height: 740px;
     max-height: 750px;
+    padding: 15px 1px;
 }
 
 /* Video */
@@ -25,6 +26,7 @@ iframe {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 5px solid #F43B47;
 }
 
 /* Headers */
@@ -37,6 +39,7 @@ h1 {
     margin: 65px 0px 20px 0px !important;
     font-family: 'Rustico' !important;
     font-size: 50px !important;
+    padding: 0 50px;
 }
 
 h2 {
@@ -51,6 +54,7 @@ h2 {
 }
 
 h3 {
+    color: #F43B47 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +129,6 @@ input {
     height: 30px;
     display: flex;
     justify-content: center;
-    text-align: center;
     border: 2px solid #F43B47;
 }
 
@@ -140,16 +143,12 @@ input {
     background-size: cover;
 }
 
-.about-me-content {
-    padding: 15px 1px;
-}
-
-.tls-banner {
-    height: 100%;
-    width: 100%;
-    background-position: center;
+.banner.about {
+    position: relative;
+    background-image: url("https://i.imgur.com/WsjBiAa.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 /* Navbar */
@@ -265,15 +264,6 @@ input {
 .col-lg-3.col-md-4.col-sm-6.col-xs-12 {
     margin: 10px 70px;
     border: 2px solid black;
-}
-
-.plan-btn {
-    position: absolute;
-    top: 100%;
-    left: 45%;
-    width: 60px;
-    transform: translate(-50%, -50%);
-    font-weight: bold !important;
 }
 
 /* Pricing */
