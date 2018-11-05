@@ -73,12 +73,12 @@ h4 {
 }
 
 h5 {
-    color: black !important;
+    color: #F43B47 !important;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px auto !important;
-    font-family: 'Montserrat' !important;
+    font-family: 'Rustico' !important;
     font-size: 18px !important;
 }
 
