@@ -105,6 +105,15 @@ a {
     text-align: left !important;
 }
 
+/* Learn More Btn */
+
+.btn.btn-success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
 /* Email CTA */
 
 .email-sub {
