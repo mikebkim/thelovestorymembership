@@ -26,7 +26,8 @@ iframe {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid black;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 20px white;
 }
 
 /* Headers */
@@ -35,6 +36,7 @@ h1 {
     color: #F43B47 !important;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     margin: 65px 0px 20px 0px !important;
     font-family: 'Rustico' !important;
@@ -133,14 +135,12 @@ a {
     width: 60px;
     transform: translate(-50%, -50%);
     font-weight: bold !important;
-    border: 2px solid black !important;
 }
 
 input {
     height: 30px;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
 }
 
 /* Full Page Spacing */
@@ -232,7 +232,7 @@ input {
     z-index: 1;
 }
 
-.fa.fa-arrow-circle-up {
+.fa.fa-chevron-up {
     color: #F43B47;
     display: block;
     text-align: center;
@@ -321,7 +321,7 @@ input {
 .fa.fa-github, .fa.fa-linkedin, .fa.fa-facebook, .fa.fa-twitter, .fa.fa-instagram, .fa.fa-soundcloud, .fa.fa-spotify {
     color: white;
     font-size: 22px;
-    margin: 3px -5px;
+    margin: 3px 5px;
     padding-top: 22px;
     transition: all 0.5s ease-out;
 }
@@ -441,7 +441,7 @@ input {
 }
 
 .animation-element.slide-left.testimonial:hover, .animation-element.slide-left.testimonial:active {
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 15px #F43B47;
 }
 
 .animation-element.slide-left.testimonial:nth-of-type(odd) {
