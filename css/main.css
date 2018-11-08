@@ -57,7 +57,7 @@ h2 {
 }
 
 h3 {
-    color: black !important;
+    color: rgb(13, 180, 13) !important;
     display: flex;
     justify-content: center;
     align-items: center;
