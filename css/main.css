@@ -1,5 +1,6 @@
 * {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Hind', sans-serif;
+    font-weight: 100;
 }
 
 @font-face {
@@ -40,9 +41,11 @@ h1 {
     text-align: center;
     justify-content: center;
     margin: 65px 0px 20px 0px !important;
-    font-family: 'Rustico' !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 50px !important;
     padding: 0 50px;
+    text-transform: uppercase;
+    font-weight: bold !important;
 }
 
 h2 {
@@ -50,19 +53,20 @@ h2 {
     position: absolute;
     top: 20%;
     left: 50%;
-    font-family: 'Rustico' !important;
+    font-family: 'Montserrat', sans-serif !important;
     transform: translate(-50%, -50%);
     font-size: 50px !important;
     font-weight: bold !important;
 }
 
 h3 {
-    color: rgb(13, 180, 13) !important;
+    color: black !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat' !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 24px !important;
+    font-weight: bold !important;
 }
 
 h4 {
@@ -71,9 +75,10 @@ h4 {
     align-items: center;
     text-align: center;
     margin: 5px auto !important;
-    font-family: "Montserrat", sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 24px !important;
     color: green !important;
+    font-weight: bold !important;
 }
 
 h5 {
@@ -82,10 +87,9 @@ h5 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 10px;
-    margin: 5px auto !important;
-    font-family: 'Rustico' !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 18px !important;
+    font-weight: bold !important;
 }
 
 h6 {
@@ -94,9 +98,10 @@ h6 {
     align-items: center;
     text-align: center;
     margin: 5px auto !important;
-    font-family: 'Rustico' !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 24px !important;
     color: #F43B47 !important;
+    font-weight: bold !important;
 }
 
 .container-fluid {
@@ -120,6 +125,11 @@ a {
     align-items: center;
     margin: 0 auto;
     max-width: 100px;
+}
+
+.btn.btn-primary.price {
+    margin: 0 auto;
+
 }
 
 .project-description {
@@ -262,6 +272,14 @@ a {
 
 /* Pricing */
 
+.price-banner {
+    background-color: #474747;
+}
+
+.pricing-text {
+    padding: 0px 50px;
+}
+
 .pricing-flex {
     display: flex;
     flex-direction: row;
@@ -272,12 +290,9 @@ a {
 
 .pricing-item {
     margin: 5px 5px;
-    height: 460px;
     max-width: 400px;
     background: rgb(255, 255, 255);
-    padding: 15px;
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
-    border: solid 1px #EAEAEA;
+    border: 1px solid black;
 }
 
 .overflow {
