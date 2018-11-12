@@ -134,6 +134,7 @@ a {
 
 .project-description {
     max-width: 500px;
+    padding: 0 15px;
 }
 
 /* Full Page Spacing */
@@ -300,7 +301,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 550px;
+    height: 520px;
     overflow: scroll;
 }
 
@@ -436,9 +437,7 @@ a {
     float: left;
     width: 50%;
     background: rgb(255, 255, 255);
-    padding: 15px;
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
-    border: solid 1px #EAEAEA;
+    border: solid 1px black;
 }
 
 .animation-element.slide-left.testimonial:hover, .animation-element.slide-left.testimonial:active {
@@ -489,8 +488,7 @@ a {
     margin: 5px 10px;
     width: 300px !important;
     height: 380px;
-    background: rgb(255, 255, 255) !important;
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid black !important;
 }
 
 .overflow-money {
