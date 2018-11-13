@@ -124,6 +124,7 @@ a {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    width: 75px;
     max-width: 100px;
 }
 
@@ -518,13 +519,13 @@ a {
     width: 1000px;
     margin: 20px !important;
     height: 3em;
-    border: 1px solid #F43B47 !important;
+    border: 1px solid black !important;
 }
 
 textarea {
     margin: 20px !important;
     height: 15rem;
-    border: 1px solid #F43B47 !important;
+    border: 1px solid black !important;
 }
 
 /* Newsletter */
